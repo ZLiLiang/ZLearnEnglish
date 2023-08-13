@@ -12,4 +12,9 @@
     <PackageReference Include="RedLock.net" Version="2.3.2" />
   </ItemGroup>
 
+  <ItemGroup>
+    <ProjectReference Include="..\Z.Commons\Z.Commons.csproj" />
+    <ProjectReference Include="..\Z.DomainCommons\Z.DomainCommons.csproj" />
+  </ItemGroup>
+
 </Project>
