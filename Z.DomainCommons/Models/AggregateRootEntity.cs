@@ -6,6 +6,9 @@ using System.Threading.Tasks;
 
 namespace Z.DomainCommons.Models
 {
+    /// <summary>
+    /// 聚合根实体类
+    /// </summary>
     public record AggregateRootEntity : BaseEntity, IAggregateRoot, ISoftDelete, IHasCreationTime, IHasDeletionTime, IHasModificationTime
     {
         public bool IsDeleted { get; private set; }
