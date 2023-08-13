@@ -1,0 +1,43 @@
+﻿using System;
+using System.Collections.Generic;
+using System.IO;
+using System.Linq;
+using System.Text;
+using System.Threading.Tasks;
+
+namespace Z.Commons
+{
+    public static class IOHelper
+    {
+        /// <summary>
+        /// 异步方法：将流转化为内存流并以字节数组返回
+        /// </summary>
+        /// <param name="stream"></param>
+        /// <returns></returns>
+        public static async Task<byte[]> ToArrayAsync(this Stream stream)
+        {
+            using MemoryStream ms = new MemoryStream();
+            await stream.CopyToAsync(ms);
+            ms.Position = 0;
+            return ms.ToArray();
+        }
+
+        /// <summary>
+        /// 将流转化为内存流并以字节数组返回
+        /// </summary>
+        /// <param name="stream"></param>
+        /// <returns></returns>
+        public static byte[] ToArray(this Stream stream)
+        {
+            using MemoryStream ms = new MemoryStream();
+            stream.CopyTo(ms);
+            ms.Position = 0;
+            return ms.ToArray();
+        }
+
+        public static void CreateDir(FileInfo file)
+        {
+            file.Directory.Create();
+        }
+    }
+}
