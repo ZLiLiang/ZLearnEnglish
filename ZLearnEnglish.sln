@@ -11,6 +11,8 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Z.Infrastructure", "Z.Infra
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Z.DomainCommons", "Z.DomainCommons\Z.DomainCommons.csproj", "{2AC4EB8A-CCD8-4C67-80CE-264DF07BA97F}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Z.EventBus", "Z.EventBus\Z.EventBus.csproj", "{D5F2C630-1D9D-4845-832F-BD101DD6212A}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -33,6 +35,10 @@ Global
 		{2AC4EB8A-CCD8-4C67-80CE-264DF07BA97F}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{2AC4EB8A-CCD8-4C67-80CE-264DF07BA97F}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{2AC4EB8A-CCD8-4C67-80CE-264DF07BA97F}.Release|Any CPU.Build.0 = Release|Any CPU
+		{D5F2C630-1D9D-4845-832F-BD101DD6212A}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{D5F2C630-1D9D-4845-832F-BD101DD6212A}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{D5F2C630-1D9D-4845-832F-BD101DD6212A}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{D5F2C630-1D9D-4845-832F-BD101DD6212A}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
