@@ -3,8 +3,6 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 17
 VisualStudioVersion = 17.4.33403.182
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Listening.Admin.WebAPI", "Listening.Admin.WebAPI\Listening.Admin.WebAPI.csproj", "{DDEAFFA4-EC10-490D-8BFC-B23EB101DB65}"
-EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Z.Commons", "Z.Commons\Z.Commons.csproj", "{82534A81-F871-45DC-9C66-7019B0E9465F}"
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Z.Infrastructure", "Z.Infrastructure\Z.Infrastructure.csproj", "{47D38C43-B5DE-41C5-A371-8E0336AB6389}"
@@ -13,9 +11,9 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Z.DomainCommons", "Z.Domain
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Z.EventBus", "Z.EventBus\Z.EventBus.csproj", "{D5F2C630-1D9D-4845-832F-BD101DD6212A}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Z.JWT", "Z.JWT\Z.JWT.csproj", "{55396AEA-3749-4CB4-A447-5DDB5CE236F7}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Z.JWT", "Z.JWT\Z.JWT.csproj", "{55396AEA-3749-4CB4-A447-5DDB5CE236F7}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Z.ASPNETCore", "Z.ASPNETCore\Z.ASPNETCore.csproj", "{B8830C95-A323-4391-9F7B-FFFD30903E41}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Z.ASPNETCore", "Z.ASPNETCore\Z.ASPNETCore.csproj", "{B8830C95-A323-4391-9F7B-FFFD30903E41}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -23,10 +21,6 @@ Global
 		Release|Any CPU = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(ProjectConfigurationPlatforms) = postSolution
-		{DDEAFFA4-EC10-490D-8BFC-B23EB101DB65}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{DDEAFFA4-EC10-490D-8BFC-B23EB101DB65}.Debug|Any CPU.Build.0 = Debug|Any CPU
-		{DDEAFFA4-EC10-490D-8BFC-B23EB101DB65}.Release|Any CPU.ActiveCfg = Release|Any CPU
-		{DDEAFFA4-EC10-490D-8BFC-B23EB101DB65}.Release|Any CPU.Build.0 = Release|Any CPU
 		{82534A81-F871-45DC-9C66-7019B0E9465F}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
 		{82534A81-F871-45DC-9C66-7019B0E9465F}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{82534A81-F871-45DC-9C66-7019B0E9465F}.Release|Any CPU.ActiveCfg = Release|Any CPU
