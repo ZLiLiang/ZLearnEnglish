@@ -362,3 +362,5 @@ MigrationBackup/
 # Fody - auto-generated XML schema
 FodyWeavers.xsd
 /Z.Infrastructure
+/Z.FileService.WebAPI/Z.FileService.WebAPI.csproj
+/Z.CommonInitializer/Z.CommonInitializer.csproj
