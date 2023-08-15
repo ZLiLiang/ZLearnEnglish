@@ -1,4 +1,4 @@
-﻿# [“原项目来只杨中科的Zack.AnyDBConfigProvider”]( https://github.com/yangzhongke/Zack.AnyDBConfigProvider/tree/main)
+﻿# [原项目来自杨中科的Zack.AnyDBConfigProvider]( https://github.com/yangzhongke/Zack.AnyDBConfigProvider/tree/main)
 
 # Z.AnyDBConfigProvider
 在.NET（.NET Core及.NET Framework）下，从任意关系数据库中加载配置的ConfigurationProvider，支持的数据库包括但不限于SQLServer, MySQL,PostgreSQL, Oracle等。
