@@ -1,0 +1,25 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>net7.0</TargetFramework>
+    <ImplicitUsings>enable</ImplicitUsings>
+    <Nullable>enable</Nullable>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <PackageReference Include="FluentValidation.AspNetCore" Version="11.3.0" />
+    <PackageReference Include="Microsoft.EntityFrameworkCore.SqlServer" Version="7.0.10" />
+    <PackageReference Include="Serilog.AspNetCore" Version="7.0.0" />
+    <PackageReference Include="System.Data.SqlClient" Version="4.8.5" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\Z.AnyDBConfigProvider\Z.AnyDBConfigProvider.csproj" />
+    <ProjectReference Include="..\Z.ASPNETCore\Z.ASPNETCore.csproj" />
+    <ProjectReference Include="..\Z.Commons\Z.Commons.csproj" />
+    <ProjectReference Include="..\Z.EventBus\Z.EventBus.csproj" />
+    <ProjectReference Include="..\Z.Infrastructure\Z.Infrastructure.csproj" />
+    <ProjectReference Include="..\Z.JWT\Z.JWT.csproj" />
+  </ItemGroup>
+
+</Project>
