@@ -25,7 +25,7 @@ namespace Z.IdentityService.Infrastructure.Services
         /// 发送短信
         /// </summary>
         /// <param name="phoneNum"></param>
-        /// <param name="args"></param>
+        /// <param name="args">参数列表</param>
         /// <returns></returns>
         /// <exception cref="ApplicationException"></exception>
         public async Task SendAsync(string phoneNum, params string[] args)
