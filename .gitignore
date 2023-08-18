@@ -365,3 +365,4 @@ FodyWeavers.xsd
 /Z.FileService.WebAPI/Z.FileService.WebAPI.csproj
 /Z.CommonInitializer/Z.CommonInitializer.csproj
 /Z.FileService.Infrastructure/Z.FileService.Infrastructure.csproj
+/Z.AnyDBConfigProvider/Properties/launchSettings.json
