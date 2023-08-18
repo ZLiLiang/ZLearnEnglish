@@ -1,0 +1,14 @@
+﻿global using Z.Listening.Admin.WebAPI;
+global using Z.Listening.Domain;
+global using Z.Listening.Domain.Entities;
+global using MediatR;
+global using Microsoft.AspNetCore.Mvc;
+global using Microsoft.EntityFrameworkCore;
+global using System;
+global using System.Collections.Generic;
+global using System.ComponentModel.DataAnnotations;
+global using System.Linq;
+global using System.Threading;
+global using System.Threading.Tasks;
+global using Z.ASPNETCore;
+global using Z.DomainCommons.Models;
