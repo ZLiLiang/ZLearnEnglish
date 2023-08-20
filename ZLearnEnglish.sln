@@ -51,7 +51,9 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Z.Listening.Admin.WebAPI", 
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Z.MediaEncoder", "Z.MediaEncoder", "{91E7F762-2CDF-4FCA-9A31-4AD575615415}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Z.MediaEncoder.Domain", "Z.MediaEncoder.Domain\Z.MediaEncoder.Domain.csproj", "{1C81D161-CA30-4D36-81D6-5F5402D0F390}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Z.MediaEncoder.Domain", "Z.MediaEncoder.Domain\Z.MediaEncoder.Domain.csproj", "{1C81D161-CA30-4D36-81D6-5F5402D0F390}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Z.MediaEncoder.Infrastructure", "Z.MediaEncoder.Infrastructure\Z.MediaEncoder.Infrastructure.csproj", "{A18C6E15-AA36-4E80-A458-32508CB42AB2}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -139,6 +141,10 @@ Global
 		{1C81D161-CA30-4D36-81D6-5F5402D0F390}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{1C81D161-CA30-4D36-81D6-5F5402D0F390}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{1C81D161-CA30-4D36-81D6-5F5402D0F390}.Release|Any CPU.Build.0 = Release|Any CPU
+		{A18C6E15-AA36-4E80-A458-32508CB42AB2}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{A18C6E15-AA36-4E80-A458-32508CB42AB2}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{A18C6E15-AA36-4E80-A458-32508CB42AB2}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{A18C6E15-AA36-4E80-A458-32508CB42AB2}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
@@ -164,6 +170,7 @@ Global
 		{A4580F35-20BD-4DE8-9C78-E2ADCDE74B40} = {78EE44A0-DFE9-4CF3-A47D-B528B1D95A18}
 		{8AE16832-DC70-42A3-BC07-0C726023F5ED} = {78EE44A0-DFE9-4CF3-A47D-B528B1D95A18}
 		{1C81D161-CA30-4D36-81D6-5F5402D0F390} = {91E7F762-2CDF-4FCA-9A31-4AD575615415}
+		{A18C6E15-AA36-4E80-A458-32508CB42AB2} = {91E7F762-2CDF-4FCA-9A31-4AD575615415}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {021466A7-5AFC-412C-AD1E-8F812D8F2650}
