@@ -12,7 +12,8 @@
   </ItemGroup>
 
   <ItemGroup>
-    <Folder Include="Controllers\" />
+    <ProjectReference Include="..\Z.CommonInitializer\Z.CommonInitializer.csproj" />
+    <ProjectReference Include="..\Z.SearchService.Infrastructure\Z.SearchService.Infrastructure.csproj" />
   </ItemGroup>
 
 </Project>
