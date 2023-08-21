@@ -63,6 +63,8 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Z.SearchService.Domain", "Z
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Z.SearchService.Infrastructure", "Z.SearchService.Infrastructure\Z.SearchService.Infrastructure.csproj", "{D7B40A29-9DF1-4009-B53C-FCD8C30C7EFA}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Z.SearchService.WebAPI", "Z.SearchService.WebAPI\Z.SearchService.WebAPI.csproj", "{C217D384-0316-4A31-88AA-3C573EC5B9EE}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -165,6 +167,10 @@ Global
 		{D7B40A29-9DF1-4009-B53C-FCD8C30C7EFA}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{D7B40A29-9DF1-4009-B53C-FCD8C30C7EFA}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{D7B40A29-9DF1-4009-B53C-FCD8C30C7EFA}.Release|Any CPU.Build.0 = Release|Any CPU
+		{C217D384-0316-4A31-88AA-3C573EC5B9EE}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{C217D384-0316-4A31-88AA-3C573EC5B9EE}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{C217D384-0316-4A31-88AA-3C573EC5B9EE}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{C217D384-0316-4A31-88AA-3C573EC5B9EE}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
@@ -194,6 +200,7 @@ Global
 		{1979A697-7F37-4C33-8E48-34AF1626A36D} = {91E7F762-2CDF-4FCA-9A31-4AD575615415}
 		{A71A58E1-7793-4418-8663-608EE0AF1581} = {05333DC1-26B6-4D69-8AF6-2420E520CFC4}
 		{D7B40A29-9DF1-4009-B53C-FCD8C30C7EFA} = {05333DC1-26B6-4D69-8AF6-2420E520CFC4}
+		{C217D384-0316-4A31-88AA-3C573EC5B9EE} = {05333DC1-26B6-4D69-8AF6-2420E520CFC4}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {021466A7-5AFC-412C-AD1E-8F812D8F2650}
